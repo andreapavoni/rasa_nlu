@@ -223,7 +223,7 @@ def create_argparser():
                         help='directory containing model to for parser to use')
     parser.add_argument('-e', '--emulate', choices=['wit', 'luis', 'api'],
                         help='which service to emulate (default: None i.e. use simple built in format)')
-    parser.add_argument('-l', '--language', choices=['de', 'en'], help="model and data language")
+    parser.add_argument('-l', '--language', choices=['it', 'de', 'en'], help="model and data language")
     parser.add_argument('-m', '--mitie_file',
                         help='file with mitie total_word_feature_extractor')
     parser.add_argument('-p', '--path', help="path where model files will be saved")

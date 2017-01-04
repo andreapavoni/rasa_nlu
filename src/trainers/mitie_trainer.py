@@ -8,7 +8,7 @@ from training_utils import write_training_metadata
 
 
 class MITIETrainer(Trainer):
-    SUPPORTED_LANGUAGES = {"en"}
+    SUPPORTED_LANGUAGES = {"en", "it"}
 
     def __init__(self, fe_file, language_name):
         self.name = "mitie"
